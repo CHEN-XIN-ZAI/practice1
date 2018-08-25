@@ -51,6 +51,13 @@ git tag -d 標籤名稱 		//刪除標籤
 git tag 標籤名稱 		//新增輕量標籤
 git tag -am "備註內容"+標籤名稱 //新增標示標籤
 
+暫存
+git stash			//暫時儲存當前目錄
+git stash list 			//瀏覽 stash 列表
+git stash pop			//還原暫存
+git stash drop			//清除最新暫存
+git stash clear			//清除全部暫存
+
 遠端數據庫操作
 
 複製遠端數據庫
@@ -65,19 +72,3 @@ git push 遠端數據庫名稱 遠端分支名稱
 將遠端分支拉下來與本地分支進行合併
 git pull
 
-暫存
-
-暫時儲存當前目錄
-git stash
- 
-瀏覽 stash 列表
-git stash list 
- 
-還原暫存
-git stash pop
- 
-清除最新暫存
-git stash drop
- 
-清除全部暫存
-git stash clear
